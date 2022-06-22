@@ -14,6 +14,28 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.container{
+    width: 100%;
+    background-color: skyblue;
+    height: 80vh;
+}
+
+#main{
+    width: 70%;
+    margin: auto;
+
+}
+
+#header{
+    background-color: #800000;
+    color: #ffff;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-around;
+}
+
 #footer{
     background-color: #800000;
     height: 15vh;
