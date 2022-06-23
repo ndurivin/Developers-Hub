@@ -19,8 +19,6 @@ function getNames(){
             li.className = 'users-list'
             li.innerText = dev.login;
             ul.appendChild(li)
-            
-
         })
     })
     .catch((err) => err)

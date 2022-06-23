@@ -62,17 +62,31 @@ a{
 .topContent{
     display: flex;
     justify-content: space-between;
-    width: 60%;
+    /* width: 70%; */
     margin: auto;
+    margin-bottom: 20px;
 }
 
 .hr1{
-    /* margin-top: 5px; */
-    margin-bottom: 25px;
+    margin-bottom: 15px;
+}
+
+.users{
+    margin-bottom: 30px;
+    border: #800000 3px solid;
+    border-radius: 8px;
+    padding: 10px;
+    width: 350px;
+}
+
+.user-names{
+    height: 25vh;
+    overflow-y: scroll;
+
 }
 
 .user-profiles{
-    width: 300px;
+    width: 500px;
     min-height: 40vh;
     background-color: aquamarine;
 }
@@ -84,6 +98,12 @@ a{
 
 #devNames{
     cursor: pointer;
+}
+
+.bottomContent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
 }
 
 #comments > textarea{
