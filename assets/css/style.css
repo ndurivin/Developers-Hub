@@ -66,6 +66,30 @@ a{
     margin: auto;
 }
 
+.hr1{
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.user-profiles{
+    width: 300px;
+    min-height: 40vh;
+    background-color: aquamarine;
+}
+
+#comments > textarea{
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.submit{
+    border-radius: 6px;
+    padding: 5px 20px;
+    background-color: #800000;
+    color: #ffff;
+    border: none;
+}
+
 
 /* The footer section  */
 #footer{
@@ -73,6 +97,7 @@ a{
     height: 15vh;
     color: #ffff;
     padding: 20px;
+    margin-top: 30px;
 }
 
 .hr{
