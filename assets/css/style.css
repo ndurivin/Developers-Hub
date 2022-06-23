@@ -17,7 +17,7 @@
 .container{
     width: 100%;
     background-color: skyblue;
-    height: 80vh;
+    min-height: 30vh;
 }
 
 #main{
@@ -33,11 +33,36 @@
 
 #navbar{
     display: flex;
-    justify-content: space-around;
+    justify-content: center
 }
 
+.search{
+    margin: 30px 400px;
+    width: 800px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-search{
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+
+/* Developers' profiles area  */
+.topContent{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* The footer section  */
 #footer{
     background-color: #800000;
     height: 15vh;
     color: #ffff;
+}
+
+.hr{
+    width: 60%;
+    margin: auto;
 }
