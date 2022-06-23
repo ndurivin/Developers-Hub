@@ -14,6 +14,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
+a{
+    text-decoration: none;
+    color: #ffff;
+}
+
 .container{
     width: 100%;
     min-height: 30vh;
@@ -25,9 +30,11 @@
 
 }
 
+/* Header & Navbar section  */
 #header{
     background-color: #800000;
     color: #ffff;
+    height: 6vh;
 }
 
 #navbar{
@@ -66,7 +73,7 @@
 }
 
 .hr{
-    width: 40%;
+    width: 42%;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
