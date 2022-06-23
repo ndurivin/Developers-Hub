@@ -1,105 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Developers Hub</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <script src="https://kit.fontawesome.com/f8db910612.js" crossorigin="anonymous"></script>
-</head>
-<body>
-<!-- Main page starts here -->
-   <div class="container">
-    <main id="main">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/f8db910612.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Main page starts here -->
+    <div class="container">
+      <main id="main">
         <header id="header">
-            <nav id="navbar">
-                <div class="logo">
-                    <h1> <a href="index.html">Developers' Hub</a> </h1>
-                </div>
-                <!-- <div class="title">
+          <nav id="navbar">
+            <div class="logo">
+              <h1><a href="index.html">Developers' Hub</a></h1>
+            </div>
+            <!-- <div class="title">
                     <h2>Developers' Profiles</h2>
                 </div> -->
-            </nav>
+          </nav>
         </header>
-<!-- Main content area starts here  -->
-    <section>
-        <div class="mainContent">
-            <div class="search">
-                <form id="searchForm"> 
-                    <input type="search" id="query" name="q" placeholder="Search with Name or User-id (1 - 46)">
-                    <button class="btn-search">Search</button>
-                  </form>
-            </div>
-           <div class="topContent">
-                <div class="users">
-                    <div class="users-title">
-                        <h3 id="devNames">All Developers <span class="down-arrow">&#x25BC;</span></h3>
-                        <hr class="hr1">
-                    </div>
-                    <div class="user-names">
-                        <ul id="users">
-
-                        </ul>
-                    </div>
-                </div>
-                <div id="user-profiles">  
-                    <div id="image"></div>
-                    <div class="profileDetails">
-                        <p id="dev-name"></p>
-                        <p id="dev-tag">
-                            <span id="followers"></span>
-                            <span id="following"></span>
-                            <span id="repos"></span>
-                        </p>
-                        <p id="dev-expertise">
-                            <span id="exp1"></span>
-                            <span id="exp2"></span>
-                            <span id="exp3"></span>
-                            <span id="exp4"></span>
-                            <span id="exp5"></span>
-                        </p>
-                    </div>
-                </div>
-           </div>
-           <hr>
-           <div class="bottomContent">
-            <div class="left-items"></div>
-            <form id="comments" action="">
-                <textarea name="comment" id="comment" cols="20" rows="5" placeholder="Write a comment to User"></textarea>
-                <button class="submit"> Submit</button>
-            </form>
-            
-            
-           </div>
-        </div>
-    </section>
-
-
-<!-- Footer Section  -->
+        <!-- Main content area starts here  -->
         <section>
-            <div id="footer">
-                <div class="socialMedia">
-                    <i id="social" class="fa-brands fa-facebook"></i>
-                    <i id="social" class="fa-brands fa-github"></i>
-                    <i id="social" class="fa-brands fa-twitter"></i>
-                    <i id="social"class="fa-brands fa-instagram"></i>
-                    <i id="social" class="fa-brands fa-linkedin"></i>
-                    <i id="social"class="fa-brands fa-google-plus"></i>
-                    <i id="social" class="fa-brands fa-pinterest"></i>
-                </div>
-                <hr class="hr">
-                <div class="copyright">
-                    <p>	&copy; 2022. <a href="#">Developers' Hub.</a> Designed & Developed by Vinn Nduri.</p>
-                </div>
+          <div class="mainContent">
+            <div class="search">
+              <form>
+                <input type="search" name="comment" id="search" placeholder="Search User Profile">
+              </form>
             </div>
+            <!-- Users profile section starts here  -->
+            <div class="topContent">
+                <button id="devNames" class="btn-toggle">View Available Developers</button>
+              <div class="users">
+                <div class="user-names">
+                  <ul id="users"></ul>
+                </div>
+              </div>
+              <div id="user-profiles">
+                <div id="image"></div>
+                <div class="profileDetails">
+                  <p id="dev-name"></p>
+                  <p id="dev-tag">
+                    <span id="followers"></span>
+                    <span id="following"></span>
+                    <span id="repos"></span>
+                  </p>
+                  <p id="dev-expertise">
+                    <span id="exp1"></span>
+                    <span id="exp2"></span>
+                    <span id="exp3"></span>
+                    <span id="exp4"></span>
+                    <span id="exp5"></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div class="bottomContent">
+              <div class="left-items"></div>
+              <form id="comments" action="">
+                <input type="text" name="comment" id="comment" placeholder="Write a comment to User">
+                <button class="submit">Submit</button>
+              </form>
+            </div>
+          </div>
         </section>
-    </main>
-   </div>
-<!-- Main page ends here -->
-
-
+        <!-- Footer Section  -->
+        <section>
+          <div id="footer">
+            <div class="socialMedia">
+              <i id="social" class="fa-brands fa-facebook"></i>
+              <i id="social" class="fa-brands fa-github"></i>
+              <i id="social" class="fa-brands fa-twitter"></i>
+              <i id="social" class="fa-brands fa-instagram"></i>
+              <i id="social" class="fa-brands fa-linkedin"></i>
+              <i id="social" class="fa-brands fa-google-plus"></i>
+              <i id="social" class="fa-brands fa-pinterest"></i>
+            </div>
+            <hr class="hr" />
+            <div class="copyright">
+              <p>
+                &copy; 2022. <a href="#">Developers' Hub.</a> Designed &
+                Developed by Vinn Nduri.
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <!-- Main page ends here -->
 
     <script src="./assets/js/script.js"></script>
-</body>
+  </body>
 </html>
