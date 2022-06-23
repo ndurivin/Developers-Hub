@@ -1,12 +1,13 @@
-// Global variables 
 
+// Global variables 
 const url = 'https://api.github.com/users'
 
-const usersDiv = document.getElementById('btnToggle').addEventListener('mouseover', displayDiv)
+const usersDiv = document.getElementById('btnToggle').addEventListener('click', displayDiv)
 
 function displayDiv(){
     if (userNames.style.display === 'none') {
         userNames.style.display = 'block';
+        alert('Click on specific user to view profile')
     } else {
         userNames.style.display = 'none';
     }

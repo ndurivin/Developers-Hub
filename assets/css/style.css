@@ -66,19 +66,18 @@ Form > input{
 
 /* Developers' profiles area  */
 .topContent{
-    /* display: flex;
-    justify-content: space-between; */
-    /* width: 70%; */
+    display: block;
     margin: auto;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
-.users{
+/* .users{
     margin-bottom: 30px;
     border-radius: 8px;
     padding: 10px;
-    width: 350px;
-}
+    width: 500px;
+} */
 
 #btnToggle{
     padding: 10px 25px;
@@ -93,16 +92,17 @@ Form > input{
 
 #userNames{
     display: none;
-    width: 300px;
-    height: 25vh;
+    width: 500px;
+    height: 15vh;
     overflow-y: scroll;
-
+    margin-bottom: 30px;
 }
 
-.user-profiles{
+#userProfiles{
     width: 500px;
-    min-height: 40vh;
+    min-height: 30vh;
     background-color: aquamarine;
+    border-radius: 15px;
 }
 
 .users-list{
