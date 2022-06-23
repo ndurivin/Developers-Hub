@@ -16,7 +16,6 @@
 
 .container{
     width: 100%;
-    background-color: skyblue;
     min-height: 30vh;
 }
 
@@ -52,6 +51,8 @@
 .topContent{
     display: flex;
     justify-content: space-between;
+    width: 60%;
+    margin: auto;
 }
 
 
