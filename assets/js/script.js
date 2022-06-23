@@ -1,12 +1,10 @@
+// Global variables 
+
+// let name = docuement.getElementById('dev-name')
+// let tag = document.getElementById('dev-tag')
 
 
-
-// Developers Section 
-
-document.getElementById('users').addEventListener('mouseover', getNames);
-
-
-
+// Developer Names Section 
 
 function getNames(){
     const url = 'https://api.github.com/users'
@@ -22,7 +20,17 @@ function getNames(){
         })
     })
     .catch((err) => err)
+}
 
+function getProfiles(){
+
+}
+
+
+function showUserProfile(){
+    fetch(url)
+    .then(response => response.json())
+    .then()
 }
 getNames()
     
