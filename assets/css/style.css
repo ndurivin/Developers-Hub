@@ -93,16 +93,24 @@ Form > input{
 #userNames{
     display: none;
     width: 500px;
-    height: 15vh;
+    height: 20vh;
     overflow-y: scroll;
     margin-bottom: 30px;
 }
 
 #userProfiles{
-    width: 500px;
-    min-height: 30vh;
+    width: 570px;
+    min-height: 35vh;
     background-color: aquamarine;
     border-radius: 15px;
+}
+
+#image{
+    padding: 60px 42px;
+}
+
+#image > img{
+    border-radius: 50%;
 }
 
 .users-list{
