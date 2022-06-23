@@ -122,6 +122,16 @@ Form > input{
     cursor: pointer;
 }
 
+#follows{
+    display: flex;
+    justify-content: space-around;
+}
+
+#expertise{
+    display: flex;
+    justify-content: space-around;
+}
+
 .bottomContent{
     display: flex;
     justify-content: space-between;
