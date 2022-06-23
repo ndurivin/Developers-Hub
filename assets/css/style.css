@@ -53,17 +53,8 @@ Form > input{
     height: 35px;
     padding: 10px;
     border-radius: 20px;
-    font-size: 18px;
-    
+    font-size: 16px;  
 }
-/* .search{
-    /* margin: 30px 400px; */
-    margin-top: 30px;
-    margin-bottom: 30px;
-    /* border-radius: 50px; */
-    /* border: none; */
-    /* padding: 5px 10px; */
-} */
 
 .btn-search{
     padding: 5px 15px;
@@ -89,7 +80,7 @@ Form > input{
     width: 350px;
 }
 
-.btn-toggle{
+#btnToggle{
     padding: 10px 25px;
     border-radius: 6px;
     background-color: #800000;
@@ -97,10 +88,12 @@ Form > input{
     color: #ffff;
     font-weight: 900;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
-.user-names{
-    /* display: none; */
+#userNames{
+    display: none;
+    width: 300px;
     height: 25vh;
     overflow-y: scroll;
 

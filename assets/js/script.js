@@ -1,13 +1,20 @@
 // Global variables 
 
-// let name = docuement.getElementById('dev-name')
-// let tag = document.getElementById('dev-tag')
+const url = 'https://api.github.com/users'
 
+const usersDiv = document.getElementById('btnToggle').addEventListener('mouseover', displayDiv)
+
+function displayDiv(){
+    if (userNames.style.display === 'none') {
+        userNames.style.display = 'block';
+    } else {
+        userNames.style.display = 'none';
+    }
+}
+displayDiv()
 
 // Developer Names Section 
-
 function getNames(){
-    const url = 'https://api.github.com/users'
     fetch(url)
     .then(res => res.json())
     .then(devs => {
@@ -21,16 +28,14 @@ function getNames(){
     })
     .catch((err) => err)
 }
-
-function getProfiles(){
-
-}
-
-
-function showUserProfile(){
-    fetch(url)
-    .then(response => response.json())
-    .then()
-}
 getNames()
+
+
+
+// function showUserProfile(){
+//     fetch(url)
+//     .then(response => response.json())
+//     .then()
+// }
+
     
