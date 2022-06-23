@@ -51,8 +51,11 @@ a{
 }
 
 .btn-search{
-    padding: 0px 10px;
+    padding: 5px 15px;
     border-radius: 5px;
+    color: #ffff;
+    background-color: #800000;
+    border: none;
 }
 
 /* Developers' profiles area  */
