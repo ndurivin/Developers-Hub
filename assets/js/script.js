@@ -25,10 +25,8 @@ function getNames(){
             li.innerText = dev.login;
             ul.appendChild(li)
             li.addEventListener('click', () => {
-
-                alert(`Name: ${dev.login}  
-                Specialization: ${dev.language_id}
-                `)
+            alert(`Name: ${dev.login}  
+                Specialization: ${dev.language_id}`)
             })
         })
     })
