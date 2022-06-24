@@ -3,7 +3,6 @@
 const url = 'https://api.github.com/users'
 
 const usersDiv = document.getElementById('btnToggle').addEventListener('click', displayDiv)
-
 function displayDiv(){
     if (userNames.style.display === 'none') {
         userNames.style.display = 'block';
@@ -61,25 +60,29 @@ let showOneProfile = (profile) => {
     followers.appendChild(followers)
 }
 
-// document.addEventListener("DOMContentLoaded", () => {
-//     // your code here
-//       let form = document.querySelector("form")
-//       form.addEventListener("submit", (e) => {
-//       e.preventDefault();
-//       taskToDo(document.getElementById('new-task-description').value)
-//       form.reset()
-//     })
-//   })
+// Function for the form section 
+document.addEventListener("DOMContentLoaded", () => {
+      let form = document.querySelector("form")
+      form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      sendComment(document.getElementById('comment').value)
+      form.reset()
+    })
+  })
   
-//   function taskToDo(todo) {
-//     let li = document.createElement("li")
-//     li.textContent = `${todo} `
-//     let liBtn = document.createElement("button")
-//     liBtn.addEventListener('click', handleDelete)
-//     liBtn.textContent = "x"
-//     li.appendChild(liBtn)
-//     document.querySelector("#tasks").appendChild(li)
-//   }
+  function  sendComment(comment) {
+    let li = document.createElement("li")
+    li.textContent = `${comment} `
+    let liBtn = document.createElement("button")
+    liBtn.addEventListener('click', delBtn)
+    liBtn.textContent = "x"
+    li.appendChild(liBtn)
+    document.querySelector("#reviews").appendChild(li)
+  }
+
+  function delBtn(e){
+    e.target.parentNode.remove()
+  }
 
 let initialize = () => {
     getNames()
