@@ -1,6 +1,7 @@
 
 // Global variables 
-const url = 'https://api.github.com/users'
+const url = '/db.json'
+// https://api.github.com/users
 
 const usersDiv = document.getElementById('btnToggle').addEventListener('click', displayDiv)
 function displayDiv(){
@@ -23,13 +24,19 @@ function getNames(){
             li.className = 'users-list'
             li.innerText = dev.login;
             ul.appendChild(li)
+            li.addEventListener('click', () => {
+
+                alert(`Name: ${dev.login}  
+                Specialization: ${dev.language_id}
+                `)
+            })
         })
     })
     .catch((err) => err)
 }
 
 // Developer profiles section 
-let login = document.getElementById('devName')
+let name = document.getElementById('devName')
 let image = document.getElementById('image')
 let tag = document.getElementById('devTag')
 let followers = document.getElementById('followers')
@@ -73,7 +80,7 @@ document.addEventListener("DOMContentLoaded", () => {
     li.textContent = `${comment} `
     let liBtn = document.createElement("button")
     liBtn.addEventListener('click', delBtn)
-    liBtn.textContent = "x"
+    // liBtn.textContent = "x"
     li.appendChild(liBtn)
     document.querySelector("#reviews").appendChild(li)
   }
