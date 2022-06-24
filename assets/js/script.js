@@ -12,7 +12,7 @@ function displayDiv(){
         userNames.style.display = 'none';
     }
 }
-displayDiv()
+
 
 // Developer Names Section 
 function getNames(){
@@ -29,10 +29,11 @@ function getNames(){
     })
     .catch((err) => err)
 }
-getNames()
+
 
 // Developer profiles section 
-let name = document.getElementById('devName')
+let login = document.getElementById('devName')
+let image = document.getElementById('image')
 let tag = document.getElementById('devTag')
 let followers = document.getElementById('followers')
 let following = document.getElementById('following')
@@ -44,10 +45,48 @@ let expertise4 = document.getElementById('exp4')
 let expertise5 = document.getElementById('exp5')
 
 
-// function showUserProfile(){
-//     fetch(url)
-//     .then(response => response.json())
-//     .then()
-// }
+function getProfiles(){
+    fetch(url)
+    .then(res => res.json())
+    .then(profiles =>{
+        profiles.map(profile => showOneProfile(profile))
+    })
+}
+
+let showOneProfile = (profile) => {
+    login.innerText = profile.login;
+    tag.innerText = profile.avatar_url
+    image.setAttribute('src', profile.avatar_url)
+    followers.innerText = profile.followers_url;
+    followers.appendChild(followers)
+}
+
+// document.addEventListener("DOMContentLoaded", () => {
+//     // your code here
+//       let form = document.querySelector("form")
+//       form.addEventListener("submit", (e) => {
+//       e.preventDefault();
+//       taskToDo(document.getElementById('new-task-description').value)
+//       form.reset()
+//     })
+//   })
+  
+//   function taskToDo(todo) {
+//     let li = document.createElement("li")
+//     li.textContent = `${todo} `
+//     let liBtn = document.createElement("button")
+//     liBtn.addEventListener('click', handleDelete)
+//     liBtn.textContent = "x"
+//     li.appendChild(liBtn)
+//     document.querySelector("#tasks").appendChild(li)
+//   }
+
+let initialize = () => {
+    getNames()
+    displayDiv()
+    showOneProfile()
+    getProfiles()
+}
+initialize();
 
     

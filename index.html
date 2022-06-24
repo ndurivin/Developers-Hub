@@ -46,28 +46,30 @@
                   <img src="/assets/img/profile.png" height="130" alt="Default Image">
                 </div>
                 <div class="profileDetails">
-                  <p id="devName"></p>
-                  <p id="devTag"></p>
-                  <p id="follows">
+                  <div id="devName"></div>
+                  <br>
+                  <div id="devTag"></div>
+                  <br>
+                  <div id="follows">
                     <span id="followers"></span>
                     <span id="following"></span>
                     <span id="repos"></span>
-                  </p>
+                  </div> <br>
                   <p id="expertise">
-                    <span id="exp1"></span>
-                    <span id="exp2"></span>
-                    <span id="exp3"></span>
-                    <span id="exp4"></span>
-                    <span id="exp5"></span>
+                    <span class="expert" id="exp1">Java</span>
+                    <span class="expert" id="exp2">JS</span>
+                    <span class="expert" id="exp3">html</span>
+                    <span class="expert" id="exp4">css</span>
+                    <span class="expert" id="exp5">Python</span>
                   </p>
                 </div>
               </div>
             </div>
             <hr />
             <div class="bottomContent">
-              <div class="left-items"></div>
               <form id="comments" action="">
-                <input type="text" name="comment" id="comment" placeholder="Write a comment to User">
+                <input type="hidden" name="name" placeholder="Enter Name">
+                <input type="text" name="comment" id="comment" placeholder="Write a review">
                 <button class="submit">Submit</button>
               </form>
             </div>
