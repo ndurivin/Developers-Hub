@@ -22,7 +22,7 @@ function getNames(){
             let ul = document.getElementById('users')
             let li = document.createElement('li')
             li.className = 'users-list'
-            li.innerText = dev.login;
+            li.innerText = dev.login
             ul.appendChild(li)
             li.addEventListener('click', () => {
             alert(`Name: ${dev.login}  
