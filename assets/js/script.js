@@ -12,7 +12,6 @@ function displayDiv(){
     }
 }
 
-
 // Developer Names Section 
 function getNames(){
     fetch(url)
@@ -28,7 +27,6 @@ function getNames(){
     })
     .catch((err) => err)
 }
-
 
 // Developer profiles section 
 let login = document.getElementById('devName')
@@ -84,12 +82,12 @@ document.addEventListener("DOMContentLoaded", () => {
     e.target.parentNode.remove()
   }
 
-let initialize = () => {
+let pageLoader = () => {
     getNames()
     displayDiv()
     showOneProfile()
     getProfiles()
 }
-initialize();
+pageLoader();
 
     
