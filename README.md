@@ -19,7 +19,6 @@
 ## Description
 <p>Developers' Hub is a web application for people seeking for software developers. The platform will help individuals get their desired developers depending on the particular skillset or technology stack. </p>
 
-[Go Back to the top](#Developers'-Hub-Web-app)
 ## Features
 1. A user can view the list of available developers.
 2. A user can click on an individual developer to view the profile details on experience and areas of expertise.
