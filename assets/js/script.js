@@ -36,14 +36,6 @@ function getNames(){
     .catch((err) => err)
 }
 
-let showOneProfile = (profile) => {
-    login.innerText = profile.login;
-    tag.innerText = profile.avatar_url
-    image.setAttribute('src', profile.avatar_url)
-    followers.innerText = profile.followers_url;
-    followers.appendChild(followers)
-}
-
 // Function for the form section 
 document.addEventListener("DOMContentLoaded", () => {
       let form = document.querySelector("form")
