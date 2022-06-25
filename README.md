@@ -26,8 +26,6 @@
 3. A user can write a review on either the application or specific developer.
 4. A user can view other reviews on the application.
 
-[Go Back to the top](#Developers'-Hub-Web-app)
-
  ###  Requirements
  * Access to  a computer or any other garget
  * Access to internet
@@ -38,7 +36,6 @@
 * Unzip the downloaded files in a folder of choice.
 * Open the index file from the zipped file with any browser.
  ****
- [Go Back to the top](#Developers'-Hub-Web-app)
 
 ### Live Link
 - Click this link to view the live application https://ndurivin.github.io/Developers-Hub/
@@ -75,5 +72,3 @@ SOFTWARE.
 ## Author Info
 Contributor -
 [Vincent Nduri](https://github.com/ndurivin)
-
-[Go Back to the top](#Developers'-Hub-Web-app)
