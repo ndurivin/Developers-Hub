@@ -2,7 +2,11 @@
 ## By  Vincent Nduri 
 
 ## Screenshot
+<<<<<<< HEAD
  ![image](/assets/img/main.png)
+=======
+ ![image](./assets/img/landing%20pg.png)
+>>>>>>> gh-pages
 
  ## Table of Content
  - [Description](#description)
@@ -40,7 +44,7 @@
  [Go Back to the top](#Developers'-Hub-Web-app)
 
 ### Live Link
-- Click this link to view the live application 
+- Click this link to view the live application https://ndurivin.github.io/Developers-Hub/
 
 ### Technology  Used
 * HTML - which was used to develope the structure off the pages.
