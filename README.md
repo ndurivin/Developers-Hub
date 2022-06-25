@@ -49,7 +49,7 @@
 [Go Back to the top](#Developers'-Hub-Web-app)
 
 ## Known Bugs
-* Error lappending the developers' profiles to the DOM from the API.
+* Error appending individual developer profile details to the DOM from the API.
 
 ## License
 MIT License
