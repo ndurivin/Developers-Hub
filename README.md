@@ -2,7 +2,7 @@
 ## By  Vincent Nduri 
 
 ## Screenshot
- ![image](/assets/img/landing%20pg.png)
+ ![image](./assets/img/landing%20pg.png)
 
  ## Table of Content
  - [Description](#description)
