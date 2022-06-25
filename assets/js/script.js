@@ -1,7 +1,7 @@
 
 // Global variables 
 const url = '/db.json'
-// https://api.github.com/users
+// const url = 'https://api.github.com/users'
 
 const usersDiv = document.getElementById('btnToggle').addEventListener('click', displayDiv)
 function displayDiv(){
@@ -25,14 +25,18 @@ function getNames(){
             li.innerText = dev.login
             ul.appendChild(li)
             li.addEventListener('click', () => {
-            alert(`Name: ${dev.login}  
-                Specialization: ${dev.language_id}`)
+                let div = document.getElementById('devName')
+                let h3 = document.querySelector('.firstName')
+                h3.innerText = (`Name: [${dev.login}]
+                Specialization: (${dev.language_id})`)
+                div.appendChild(h3)
             })
         })
     })
     .catch((err) => err)
 }
 
+<<<<<<< HEAD
 
 function getProfiles(){
     fetch(url)
@@ -41,6 +45,9 @@ function getProfiles(){
         profiles.map(profile => showOneProfile(profile))
     })
 }
+=======
+// Specialization: (${dev.language_id})
+>>>>>>> refs/remotes/origin/main
 
 let showOneProfile = (profile) => {
     login.innerText = profile.login;

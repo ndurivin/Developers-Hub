@@ -2,7 +2,11 @@
 ## By  Vincent Nduri 
 
 ## Screenshot
+<<<<<<< HEAD
  ![image](/assets/img/main.png)
+=======
+ ![image](./assets/img/landing%20pg.png)
+>>>>>>> refs/remotes/origin/main
 
  ## Table of Content
  - [Description](#description)
@@ -40,16 +44,16 @@
  [Go Back to the top](#Developers'-Hub-Web-app)
 
 ### Live Link
-- Click this link to view the live application 
+- Click this link to view the live application https://ndurivin.github.io/Developers-Hub/
 
 ### Technology  Used
 * HTML - which was used to develope the structure off the pages.
 * CSS - which was used to style the User Interface.
-* JAVASCRIPT - which was used for DOM(Document Object Model) manipulation scripts and responsiveness.
+* JAVASCRIPT - which was used for DOM(Document Object Model) manipulation scripts and interactivity.
 [Go Back to the top](#Developers'-Hub-Web-app)
 
 ## Known Bugs
-* Error lappending the developers' profiles to the DOM from the API.
+* Error appending individual developer profile details to the DOM from the API.
 
 ## License
 MIT License
