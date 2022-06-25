@@ -36,8 +36,6 @@ function getNames(){
     .catch((err) => err)
 }
 
-// Specialization: (${dev.language_id})
-
 let showOneProfile = (profile) => {
     login.innerText = profile.login;
     tag.innerText = profile.avatar_url

@@ -2,7 +2,11 @@
 ## By  Vincent Nduri 
 
 ## Screenshot
+<<<<<<< HEAD
+ ![image](/assets/img/main.png)
+=======
  ![image](./assets/img/landing%20pg.png)
+>>>>>>> gh-pages
 
  ## Table of Content
  - [Description](#description)
