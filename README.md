@@ -49,7 +49,7 @@
 ### Technology  Used
 * HTML - which was used to develope the structure off the pages.
 * CSS - which was used to style the User Interface.
-* JAVASCRIPT - which was used for DOM(Document Object Model) manipulation scripts and responsiveness.
+* JAVASCRIPT - which was used for DOM(Document Object Model) manipulation scripts and interactivity.
 [Go Back to the top](#Developers'-Hub-Web-app)
 
 ## Known Bugs
