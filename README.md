@@ -2,11 +2,8 @@
 ## By  Vincent Nduri 
 
 ## Screenshot
-<<<<<<< HEAD
- ![image](/assets/img/main.png)
-=======
- ![image](./assets/img/landing%20pg.png)
->>>>>>> refs/remotes/origin/main
+[image](./assets/img/main.png)
+
 
  ## Table of Content
  - [Description](#description)
