@@ -33,19 +33,6 @@ function getNames(){
     .catch((err) => err)
 }
 
-// Developer profiles section 
-let name = document.getElementById('devName')
-let image = document.getElementById('image')
-let tag = document.getElementById('devTag')
-let followers = document.getElementById('followers')
-let following = document.getElementById('following')
-let repos = document.getElementById('repos')
-let expertise1 = document.getElementById('exp1')
-let expertise2 = document.getElementById('exp2')
-let expertise3 = document.getElementById('exp3')
-let expertise4 = document.getElementById('exp4')
-let expertise5 = document.getElementById('exp5')
-
 
 function getProfiles(){
     fetch(url)
